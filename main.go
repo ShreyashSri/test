@@ -7,30 +7,30 @@ import (
 )
 
 type User struct {
-	userID            string
-	country           string
-	createdAt         string
-	curriculum        string
-	email             string
-	fullName          string
-	lastLogin         string
-	role              string
-	signupIP          string
-	userTourCompleted bool
+	UserID            string
+	Country           string
+	CreatedAt         string
+	Curriculum        string
+	Email             string
+	FullName          string
+	LastLogin         string
+	Role              string
+	SignupIP          string
+	UserTourCompleted bool
 }
 
 var users = []User{
 	{
-		userID:            "1",
-		country:           "US",
-		createdAt:         "2022-01-01T10:00:00Z",
-		curriculum:        "Math",
-		email:             "user1@example.com",
-		fullName:          "Alice Smith",
-		lastLogin:         "2022-06-01T12:00:00Z",
-		role:              "student",
-		signupIP:          "192.168.1.1",
-		userTourCompleted: true,
+		UserID:            "1",
+		Country:           "US",
+		CreatedAt:         "2022-01-01T10:00:00Z",
+		Curriculum:        "Math",
+		Email:             "user1@example.com",
+		FullName:          "Alice Smith",
+		LastLogin:         "2022-06-01T12:00:00Z",
+		Role:              "student",
+		SignupIP:          "192.168.1.1",
+		UserTourCompleted: true,
 	},
 }
 

@@ -25,5 +25,5 @@ serviceAccountKey.json
 .vscode/
 
 # Build output
-app
+/app
 tmp/
